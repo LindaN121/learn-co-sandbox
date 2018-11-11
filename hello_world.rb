@@ -1,6 +1,6 @@
 instructors = ["Rob", "Sam", "Humzah", "Ann", "Hillary"]
 welcome_array = []
-def greeting (name)
+def greeting
    "Welcome to Flatiron, #{name}!"
 end
 instructors.each do |name|
