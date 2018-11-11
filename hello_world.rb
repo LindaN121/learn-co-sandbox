@@ -1,1 +1,0 @@
-1. Print out the number 1...100 with Fizz for numbers divisble by 3 Buzz, for numbers divisble by 5 FizzBuzz, 
