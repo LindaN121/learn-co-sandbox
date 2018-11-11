@@ -1,3 +1,3 @@
 (0..100).each do |number|
-  puts Fizz
+  puts "Fizz"
 end
