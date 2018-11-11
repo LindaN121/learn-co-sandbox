@@ -1,6 +1,8 @@
-cubes = []
-(0..20).each do |number|
-  cubes.push(number**3)
+instructors = ["Rob", "Sam", "Humzah", "Ann", "Hillary"]
+def greeting(name)
+  puts "Welcome to Flatiron, #{name}!"
 end
 
-puts cubes.inspect
+instructors.each do |name|
+  greeting (name)
+end
