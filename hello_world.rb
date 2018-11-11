@@ -1,7 +1,8 @@
 instructors = ["Rob", "Sam", "Humzah", "Ann", "Hillary"]
 welcome_array = []
-def greeting(name)
-  welcome_array.push(name)
+def greeting (name)
+  "Welcome to Flatiron, #{name}"
+  welcome_array << greeting (name)
 end
 
 instructors.each do |name|
